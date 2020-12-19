@@ -1,0 +1,106 @@
+
+.App {
+  text-align: center;
+  padding: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column-right {
+  float: left;
+  width: 48.7%;
+  padding: 10px;
+  height: 850px; /* Should be removed. Only for demonstration */
+  background-color: #FFFDD0;
+}
+
+.column-left {
+  float: left;
+  width: 48.5%;
+  padding: 10px;
+  height: 850px; /* Should be removed. Only for demonstration */
+  background-color: #E4DDBD;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  position: relative;
+}
+
+#left{float: left; width: 50%;}
+#right{float: right; width: 50%;}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h1{font-size:40px;
+  height:50px;
+}
+
+h2{font-size:25px;
+  height:30px;
+}
+
+h3{font-size:20px;
+  height:10px;
+}
+
+p{font-size:15px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#rcorners1 {
+  display: table;
+  margin: auto;
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  width: 300px;
+  height: 600px;
+}
